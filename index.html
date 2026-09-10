@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <div class="logo-icon">
+                <i class="fa-solid fa-mug-saucer"></i>
+            </div>
+            <h1>Coffee Shop</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#svyaz">Связаться с нами</a></li>
+                <li><a href="#" id="coffee-link">Кофе</a></li>
+            </ul>
+        </nav>
+        <a href="tel:+37498029920">Связаться с нами</a>
+    </header>
+
+    <section id="home">
+
+        <main>
+            <div class="hero-content">
+                <h2>Пробуждаем утро ароматом кофе</h2>
+                <p>Свежая обжарка, уютная атмосфера и напитки, ради которых стоит вернуться</p>
+                <a href="#" class="hero-btn" id="menu-link">Посмотреть меню</a>
+            </div>
+        </main>
+    </section>
+    <section id="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="img/about.jpg" alt="Наша кофейня">
+            </div>
+            <div class="about-text">
+                <span class="about-label">О нас</span>
+                <h2>Место, где кофе становится историей</h2>
+                <p>
+                    Мы начинали с маленькой стойки и большой любви к кофе. Сегодня наша кофейня —
+                    это место, куда приходят не только за чашкой эспрессо, но и за атмосферой:
+                    тёплый свет, аромат свежей обжарки и разговоры за соседним столиком.
+                </p>
+                <p>
+                    Каждое зерно мы отбираем вручную, а бариста проходят обучение у лучших мастеров
+                    своего дела. Для нас важно, чтобы каждый гость чувствовал себя как дома.
+                </p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>8+</h3>
+                        <p>лет на рынке</p>
+                    </div>
+                    <div class="stat">
+                        <h3>15</h3>
+                        <p>сортов кофе</p>
+                    </div>
+                    <div class="stat">
+                        <h3>10k+</h3>
+                        <p>довольных гостей</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="coffee">
+        <div class="coffee-container">
+            <div class="coffee-header">
+                <span class="about-label">Наше меню</span>
+                <h2>Кофе, который стоит попробовать</h2>
+                <p>От классического эспрессо до авторских напитков — каждый найдёт вкус по душе</p>
+            </div>
+
+            <div class="coffee-grid">
+                <div class="coffee-card">
+                    <img src="img/espresso.jpg" alt="Эспрессо">
+                    <div class="coffee-info">
+                        <h3>Эспрессо</h3>
+                        <p>Насыщенный и крепкий, для истинных ценителей кофе</p>
+                        <div class="coffee-bottom">
+                            <span class="coffee-price">900 ֏</span>
+                            <button class="coffee-btn" data-name="Эспрессо">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="coffee-card">
+                    <img src="img/cappuccino.jpg" alt="Капучино">
+                    <div class="coffee-info">
+                        <h3>Капучино</h3>
+                        <p>Мягкий эспрессо с бархатной молочной пенкой</p>
+                        <div class="coffee-bottom">
+                            <span class="coffee-price">1200 ֏</span>
+                            <button class="coffee-btn" data-name="Капучино">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="coffee-card">
+                    <img src="img/latte.jpg" alt="Латте">
+                    <div class="coffee-info">
+                        <h3>Латте</h3>
+                        <p>Нежный баланс молока и кофе с лёгкой сладостью</p>
+                        <div class="coffee-bottom">
+                            <span class="coffee-price">1300 ֏</span>
+                            <button class="coffee-btn" data-name="Латте">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="coffee-card">
+                    <img src="img/americano.jpg" alt="Американо">
+                    <div class="coffee-info">
+                        <h3>Американо</h3>
+                        <p>Лёгкий и освежающий, идеален на весь день</p>
+                        <div class="coffee-bottom">
+                            <span class="coffee-price">1000 ֏</span>
+                            <button class="coffee-btn" data-name="Американо">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="coffee-card">
+                    <img src="img/mocha.jpg" alt="Мокко">
+                    <div class="coffee-info">
+                        <h3>Мокко</h3>
+                        <p>Кофе и шоколад в идеальном сочетании</p>
+                        <div class="coffee-bottom">
+                            <span class="coffee-price">1400 ֏</span>
+                            <button class="coffee-btn" data-name="Мокко">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="coffee-card">
+                    <img src="img/raf.jpg" alt="Раф">
+                    <div class="coffee-info">
+                        <h3>Раф</h3>
+                        <p>Кремовый и ароматный, с ванильными нотами</p>
+                        <div class="coffee-bottom">
+                            <span class="coffee-price">1500 ֏</span>
+                            <button class="coffee-btn" data-name="Раф">Заказать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="svyaz">
+        <div class="contact-container">
+            <div class="contact-info">
+                <span class="about-label">Связаться с нами</span>
+                <h2>Будем рады вас видеть</h2>
+                <p>Есть вопрос, хотите забронировать столик или просто сказать привет? Напишите нам или загляните в
+                    гости.</p>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h4>Адрес</h4>
+                        <p>г. Ереван, ул. Абовяна, 12</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <h4>Телефон</h4>
+                        <p>+374 98 029920</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <h4>Email</h4>
+                        <p>kofa@coffeeshop.am</p>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-clock"></i>
+                    <div>
+                        <h4>Часы работы</h4>
+                        <p>Ежедневно с 8:00 до 22:00</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <input type="text" placeholder="Ваше имя">
+                <input type="email" placeholder="Ваш email">
+                <textarea placeholder="Сообщение" rows="5"></textarea>
+                <button type="submit">Отправить</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
